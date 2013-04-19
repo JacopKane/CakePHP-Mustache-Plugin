@@ -1,22 +1,24 @@
 {
-  "name": "electblake/mustache",
-  "type": "cakephp-plugin",
-  "description": "CakePHP View Helper Plugin for the Mustache Templating Language",
-  "license": "MIT",
-  "version": "0.0.0",
-  "authors": [
+  "name"        : "electblake/mustache",
+  "type"        : "cakephp-plugin",
+  "description" : "CakePHP View Helper Plugin for the Mustache Templating Language",
+  "keywords"    : ["cakephp", "mustache", "template", "view", "plugin", "render", "helper"],
+  "license"     : "MIT",
+  "version"     : "0.0.0",
+  "authors"     : [
     {
-      "name": "Brian Wigginton",
+      "name"    : "Brian Wigginton",
       "homepage": "http://www.bwigg.com",
-      "email": "brianwigginton@gmail.com"
+      "email"   : "brianwigginton@gmail.com"
     },
     {
-      "name": "electblake",
-      "email": "electblake@gmail.com"
+      "name"  : "electblake",
+      "email" : "electblake@gmail.com"
     }
   ],
-  "require": {
-    "composer/installers": "*",
-    "mustache/mustache": "dev-master"
+  "require"     : {
+    "php"                 :">=5.2.3",
+    "composer/installers" : "*",
+    "mustache/mustache"   : "dev-dev"
   }
 }
